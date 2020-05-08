@@ -1,6 +1,6 @@
 #cards{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     grid-gap: 50px;
     margin-bottom: 50px;
@@ -81,3 +81,21 @@
     margin: 0 auto;
     padding: 0px 30px;
  }
+
+ .botoes{
+     align-items: center;
+     display: flex;
+     justify-content: flex-end;
+     margin-bottom: 15px;
+     margin-right: 17%;
+ }
+
+ .input-group{
+     width:30%;
+     
+ }
+
+ .btn-info {
+    margin-right: 10%;
+    
+}
